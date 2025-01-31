@@ -15,7 +15,7 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose
-.connect('mongodb://localhost:27017/task_manager', { useNewUrlParser: true, useUnifiedTopology: true })
+.connect('mongodb+srv://pradeepragu:Pradeep.ragu16@cluster0.15ndn.mongodb.net/task_manager?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => console.log('MongoDB connected'))
 .catch((err) => console.error('Error connecting to MongoDB:', err));
 

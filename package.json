@@ -9,14 +9,10 @@
   "name": "server",
   "version": "1.0.0",
   "main": "Authentication.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    
-     "start": "node Authentication.js",
-     "dev": "nodemon Authentication.js"
-
-
+    "start": "node Authentication.js",
+    "dev": "nodemon Authentication.js"
   },
   "keywords": [],
   "author": "",
